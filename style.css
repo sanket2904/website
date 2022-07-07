@@ -1,0 +1,22 @@
+img {
+    max-width: 250px;
+    transition: transform 300ms ease;
+}
+img:hover {
+    transform:  scale(1.5);
+    position: relative;
+    z-index: 3;
+}
+.btn-group {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+}
+.button {
+    background-color: #111111;
+    margin-top: 25px;
+    color: aliceblue;
+    padding: 25px;
+    max-width: 200px;
+
+}
